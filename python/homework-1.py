@@ -3,11 +3,6 @@
 ###############################################
 
 
-
-
-
-
-
 ###############################################
 # GÖREV 1: Veri yapılarının tipleriniz inceleyiniz.
 ###############################################
@@ -62,12 +57,6 @@ print(k)
 
 
 
-
-
-
-
-
-
 ###############################################
 # GÖREV 2: Verilen string ifadenin tüm harflerini büyük harfe çeviriniz.
 # Virgül ve nokta yerine space koyunuz, kelime kelime ayırınız.
@@ -86,14 +75,6 @@ textreplace2 = textreplace.replace(".", " ")
 # Metni kelime kelime ayırmak için .split() metodu kullanılır.
 output = textreplace2.split()
 #['THE', 'GOAL', 'IS', 'TO', 'TURN', 'DATA', 'INTO', 'INFORMATION', 'AND', 'INFORMATION', 'INTO', 'INSIGHT']
-
-
-
-
-
-
-
-
 
 
 
@@ -119,7 +100,6 @@ list2 = lst[0:4]   # ['D', 'A', 'T', 'A' ] listesi oluşturulur
 lst.pop(8)         # 8. indeksteki eleman silimir
 lst.append("DATA") # Yeni eleman eklendi
 lst.insert(8,"N")
-
 
 
 
@@ -161,8 +141,6 @@ del dict["Antonio"]
 
 
 
-
-
 ###############################################
 # GÖREV 5: Arguman olarak bir liste alan, listenin içerisindeki tek ve çift sayıları ayrı listelere atıyan ve bu listeleri return eden fonskiyon yazınız.
 ###############################################
@@ -183,8 +161,6 @@ def ayir (liste):
 
 ayir(l)
 type(ayir(l))
-
-
 
 
 
@@ -217,8 +193,6 @@ basariSirala(ogrenciler)
 
 
 
-
-
 ###############################################
 # GÖREV 7: Aşağıda 3 adet liste verilmiştir.
 # Listelerde sırası ile bir dersin kodu, kredisi ve
@@ -230,9 +204,6 @@ kredi = [3,4,2,4]
 kontenjan = [30,75,150,25]
 
 list(zip(ders_kodu, kredi, kontenjan))
-
-
-
 
 
 
@@ -320,8 +291,6 @@ kume2.isdisjoint(kume1)
 
 
 
-
-
 ##################################################
 # List Comprehensions
 ##################################################
@@ -387,9 +356,6 @@ df.info()
 
 df.columns2 = [col.upper() if "no" in col else col.upper() + "_FLAG" for col in df.columns]
 df.columns2
-
-
-
 
 
 
